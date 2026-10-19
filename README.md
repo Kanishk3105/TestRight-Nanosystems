@@ -1,5 +1,6 @@
 <div align="center">
 
+
 # Device Log Summarizer
 
 ### Turn device telemetry into a clear, trustworthy summary.
