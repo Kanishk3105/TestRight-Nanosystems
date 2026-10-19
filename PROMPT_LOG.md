@@ -2,24 +2,37 @@
 
 ## Initial Prompt
 
-The initial assessment prompt requested a chart script that must “Rotate device labels appropriately when necessary,” “Prevent overlapping labels, clipped titles, and unreadable tick labels,” and “Ensure the chart remains readable for long device IDs and numerous devices.” It also required the title “Average Temperature by Device,” the specified axis labels, and generation of `temperature_chart.png`.
+**Verbatim extract from the initial chart-generation prompt:**
+
+> “Rotate device labels appropriately when necessary.”
+>
+> “Prevent overlapping labels, clipped titles, and unreadable tick labels.”
+>
+> “Ensure the chart remains readable for long device IDs and numerous devices.”
+
+The initial prompt also specified the title “Average Temperature by Device,” the required axis labels, and generation of `temperature_chart.png`.
 
 ## First Attempt Review
 
-The initial chart with short fixture device IDs rendered correctly. When stress-tested with eight synthetic device IDs, each 158 characters long, `plot_results.py` emitted Matplotlib's warning: `Tight layout not applied. The bottom and top margins cannot be made large enough to accommodate all Axes decorations.` Inspection of the rendered PNG showed the plot squeezed to the right, excessive blank space, and very long diagonal tick labels. This was an actual long-label layout failure.
+The review-only input contains six synthetic device IDs, each 158 characters long. Running `python .\review-only\chart-first-attempt\first_attempt_plot.py` produced `review-only\chart-first-attempt\first_attempt_chart.png` and emitted this Matplotlib warning: `Tight layout not applied. The bottom and top margins cannot be made large enough to accommodate all Axes decorations.` Visual inspection of that PNG showed the device labels clipped at the bottom and the x-axis label invisible.
 
 ## Follow-up Prompt
 
-The actual follow-up prompt was: “Stress-test plot_results.py using temporary synthetic JSON with multiple long device IDs. Generate and inspect the actual chart. If you observe a real layout problem, correct it, add a regression test, and record the actual initial prompt, observed problem, actual follow-up prompt, correction, and verification.”
+**Follow-up prompt recorded in the earlier committed version of this log:**
+
+> Stress-test plot_results.py using temporary synthetic JSON with multiple long device IDs. Generate and inspect the actual chart. If you observe a real layout problem, correct it, add a regression test, and record the actual initial prompt, observed problem, actual follow-up prompt, correction, and verification.
 
 ## Correction
 
-Wrapped long device labels at 18 characters, kept the wrapped labels horizontal and readable, and increased figure height according to the maximum wrapped label line count. This prevents the long rotated tick labels from forcing the plot area to collapse. Added a regression test using eight 158-character device IDs; it verifies no tight-layout warning and checks that the resulting chart is wider than it is tall.
+The production `plot_results.py` already wraps long IDs at 18 characters and adjusts the figure height for the wrapped labels. It continues to load chart data from JSON. No production code change was made during this review. The follow-up prompt is recorded above as historical prompt text; the verification below records what was actually rerun in this workspace.
 
 ## Verification
 
-The pre-correction command `python .\plot_results.py --input C:\Users\kanis\AppData\Local\Temp\device-chart-stress-g89bpkk4\long-device-ids.json --output C:\Users\kanis\AppData\Local\Temp\device-chart-stress-g89bpkk4\long-device-ids-chart.png` produced a 254,732-byte PNG and the warning/layout failure described above. After correction, the same input was rendered to `long-device-ids-chart-fixed.png` (63,523 bytes; 1514 × 1093 pixels); it emitted no tight-layout warning and was inspected in the image viewer. `python -m unittest tests.test_plot_results.PlotResultsTests.test_long_device_ids_fit_without_tight_layout_warning -v` passed. The final full run `python -m unittest discover -s tests -v` completed with 23 tests passed and 0 failures. `python -m py_compile main.py sanitize.py plot_results.py tests\__init__.py tests\test_main.py tests\test_plot_results.py` succeeded. The deliverable `temperature_chart.png` was regenerated from `summary.json`, which is based on the clearly identified synthetic fixture, not official assessment data.
+- Ran `python .\review-only\chart-first-attempt\first_attempt_plot.py`; it emitted the tight-layout warning quoted above. The resulting PNG was visually inspected and showed clipped device labels and no visible x-axis label.
+- Ran `python .\plot_results.py --input .\review-only\chart-first-attempt\synthetic_device_summary.json --output .\review-only\chart-first-attempt\corrected_production_chart.png`; the command completed without a tight-layout warning. The generated PNG is 1319 × 1093 pixels and 58,644 bytes. Visual inspection confirmed all six 158-character IDs are wrapped and readable, the `Device ID` label and title are visible, and the temperature axis reads `Average Temperature (°C)`.
+- Ran `python -m unittest tests.test_plot_results.PlotResultsTests.test_long_device_ids_fit_without_tight_layout_warning -v`; the test passed. This existing test exercises eight generated long IDs and checks for the tight-layout warning.
+- The official `device_telemetry.csv` is not present in the workspace. The available chart input is synthetic and was used only for review.
 
 ## AI Usage Summary
 
-AI assistance is used for Sections 2 and 3, their tests, and project documentation. `sanitize.py` contains only a placeholder for Section 1; no Section 1 solution or tests are provided.
+AI assistance was used for the chart review and documentation. `sanitize.py` remains a placeholder. No Section 1 implementation or tests were generated; Section 1 remains the candidate's independent work.
