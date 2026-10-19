@@ -2,23 +2,23 @@
 
 ## Initial Prompt
 
-The initial user request supplied the full coding-assessment requirements. The chart-specific instruction was to create `plot_results.py` that validates Section 2 JSON, plots every retained device's average temperature with labeled axes and the title “Average Temperature by Device,” handles long labels/readability, and saves a verified PNG. The same request explicitly reserved Section 1 for independent candidate work.
+The initial assessment prompt requested a chart script that must “Rotate device labels appropriately when necessary,” “Prevent overlapping labels, clipped titles, and unreadable tick labels,” and “Ensure the chart remains readable for long device IDs and numerous devices.” It also required the title “Average Temperature by Device,” the specified axis labels, and generation of `temperature_chart.png`.
 
 ## First Attempt Review
 
-No separate earlier chart implementation or rendered image existed in the workspace. The first synthetic CLI run displayed the terminal table's degree symbol as a replacement character in captured PowerShell output (`Average Temperature (�C)`), reducing readability in that environment. The chart image itself was later rendered and inspected; its title, axes, and device labels were legible and no clipping was observed.
+The initial chart with short fixture device IDs rendered correctly. When stress-tested with eight synthetic device IDs, each 158 characters long, `plot_results.py` emitted Matplotlib's warning: `Tight layout not applied. The bottom and top margins cannot be made large enough to accommodate all Axes decorations.` Inspection of the rendered PNG showed the plot squeezed to the right, excessive blank space, and very long diagonal tick labels. This was an actual long-label layout failure.
 
 ## Follow-up Prompt
 
-No distinct follow-up prompt was issued. The original assessment request asked for a readable terminal table and a chart with an axis labeled in °C; there was no separate prompt after observing the output. This log does not invent a prompt or a prompt-driven event.
+The actual follow-up prompt was: “Stress-test plot_results.py using temporary synthetic JSON with multiple long device IDs. Generate and inspect the actual chart. If you observe a real layout problem, correct it, add a regression test, and record the actual initial prompt, observed problem, actual follow-up prompt, correction, and verification.”
 
 ## Correction
 
-Changed the terminal table header to ASCII `Average Temperature (C)` so it displays reliably in the captured Windows PowerShell output. The chart retains its required °C axis label. Also report oversized JSON integer temperatures as validation errors instead of allowing float conversion to escape as an uncaught overflow. The chart uses a device-count-aware figure width, rotated right-aligned labels, a y-axis grid, `tight_layout()`, and a tight saved bounding box.
+Wrapped long device labels at 18 characters, kept the wrapped labels horizontal and readable, and increased figure height according to the maximum wrapped label line count. This prevents the long rotated tick labels from forcing the plot area to collapse. Added a regression test using eight 158-character device IDs; it verifies no tight-layout warning and checks that the resulting chart is wider than it is tall.
 
 ## Verification
 
-Ran `python -m unittest discover -s tests -v`: 22 tests passed, 0 failed. Ran `python -m py_compile main.py sanitize.py plot_results.py tests\test_main.py tests\test_plot_results.py` successfully. Ran `python .\main.py --input .\tests\fixtures\sample_device_telemetry.csv --output .\summary.json` and `python .\plot_results.py --input .\summary.json --output .\temperature_chart.png`; the output had four input/valid rows, no rejected rows, and one excluded device. The retained averages were 45.0 °C for DEV_A and exactly 80.0 °C for DEV_B; DEV_A had one ERROR record. Reloading the JSON confirmed these expected values and counts. The PNG exists and is 33,246 bytes. The generated chart was inspected in the workspace image viewer; the title, axis labels, bars, and rotated device IDs were visible without apparent clipping. The terminal table now renders its temperature unit as readable ASCII `(C)`.
+The pre-correction command `python .\plot_results.py --input C:\Users\kanis\AppData\Local\Temp\device-chart-stress-g89bpkk4\long-device-ids.json --output C:\Users\kanis\AppData\Local\Temp\device-chart-stress-g89bpkk4\long-device-ids-chart.png` produced a 254,732-byte PNG and the warning/layout failure described above. After correction, the same input was rendered to `long-device-ids-chart-fixed.png` (63,523 bytes; 1514 × 1093 pixels); it emitted no tight-layout warning and was inspected in the image viewer. `python -m unittest tests.test_plot_results.PlotResultsTests.test_long_device_ids_fit_without_tight_layout_warning -v` passed. The final full run `python -m unittest discover -s tests -v` completed with 23 tests passed and 0 failures. `python -m py_compile main.py sanitize.py plot_results.py tests\__init__.py tests\test_main.py tests\test_plot_results.py` succeeded. The deliverable `temperature_chart.png` was regenerated from `summary.json`, which is based on the clearly identified synthetic fixture, not official assessment data.
 
 ## AI Usage Summary
 

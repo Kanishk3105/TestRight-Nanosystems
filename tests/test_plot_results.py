@@ -6,8 +6,11 @@ import json
 import io
 import tempfile
 import unittest
+import warnings
 from contextlib import redirect_stderr, redirect_stdout
 from pathlib import Path
+
+from matplotlib.image import imread
 
 from plot_results import ChartInputError, create_chart, load_summary, main
 
@@ -33,6 +36,32 @@ class PlotResultsTests(unittest.TestCase):
         result = create_chart(self.json_path, self.output_path)
         self.assertEqual(result, self.output_path)
         self.assertTrue(result.is_file())
+        self.assertGreater(result.stat().st_size, 0)
+
+    def test_long_device_ids_fit_without_tight_layout_warning(self) -> None:
+        devices = [
+            {
+                "device_id": (
+                    f"DEV_{index:02d}_"
+                    + "north-facility-sensor-array-temperature-channel-" * 3
+                    + f"ZONE_{index:02d}"
+                ),
+                "average_temperature": 20.0 + index * 5.0,
+            }
+            for index in range(1, 9)
+        ]
+        self.write_summary(devices)
+
+        with warnings.catch_warnings(record=True) as caught:
+            warnings.simplefilter("always")
+            result = create_chart(self.json_path, self.output_path)
+
+        self.assertFalse(
+            any("Tight layout not applied" in str(item.message) for item in caught),
+            [str(item.message) for item in caught],
+        )
+        image = imread(result)
+        self.assertGreater(image.shape[1], image.shape[0])
         self.assertGreater(result.stat().st_size, 0)
 
     def test_empty_devices_are_rejected_without_claiming_success(self) -> None:

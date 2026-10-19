@@ -7,6 +7,7 @@ import json
 import math
 import sys
 from pathlib import Path
+from textwrap import fill
 from typing import Any
 
 import matplotlib
@@ -66,20 +67,21 @@ def create_chart(json_path: str | Path, output_path: str | Path) -> Path:
     chart_data = load_summary(json_path)
     destination = Path(output_path)
     labels, temperatures = zip(*chart_data)
+    wrapped_labels = [fill(label, width=18, break_long_words=True) for label in labels]
     figure_width = max(8.0, min(24.0, 5.0 + len(labels) * 0.65))
-    figure, axis = plt.subplots(figsize=(figure_width, 6.0))
+    label_lines = max(label.count("\n") + 1 for label in wrapped_labels)
+    figure_height = max(6.0, 5.0 + label_lines * 0.22)
+    figure, axis = plt.subplots(figsize=(figure_width, figure_height))
     try:
         positions = range(len(labels))
         axis.bar(positions, temperatures, color="#4472C4")
-        axis.set_xticks(list(positions), labels)
+        axis.set_xticks(list(positions), wrapped_labels)
         axis.set_xlabel("Device ID")
         axis.set_ylabel("Average Temperature (°C)")
         axis.set_title("Average Temperature by Device", pad=16)
         axis.grid(axis="y", linestyle="--", alpha=0.35)
         axis.set_axisbelow(True)
-        axis.tick_params(axis="x", labelrotation=55)
-        for tick in axis.get_xticklabels():
-            tick.set_horizontalalignment("right")
+        axis.tick_params(axis="x", labelrotation=0, labelsize=8)
         figure.tight_layout()
         destination.parent.mkdir(parents=True, exist_ok=True)
         figure.savefig(destination, dpi=150, bbox_inches="tight")

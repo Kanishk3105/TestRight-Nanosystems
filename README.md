@@ -34,7 +34,7 @@ Telemetry CSV  ──▶  Validate & aggregate  ──▶  summary.json  ──�
 | 🎯 | **Temperature filter** | Retains means at or below **80.0 °C**; excludes only values above it |
 | 🧾 | **JSON report** | Reproducible device ordering, filter settings, and row-count metadata |
 | 📊 | **Chart generation** | Labeled Matplotlib bar chart with spacing for long device names |
-| 🧪 | **Automated checks** | 22 `unittest` cases for Sections 2 and 3 |
+| 🧪 | **Automated checks** | 23 `unittest` cases for Sections 2 and 3 |
 
 ## Quick start
 
