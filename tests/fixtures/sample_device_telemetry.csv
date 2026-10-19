@@ -1,0 +1,5 @@
+device_id,status,temperature
+DEV_A,OK,40
+DEV_A,error,50
+DEV_B,OK,80
+DEV_C,OK,90

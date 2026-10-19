@@ -1,0 +1,28 @@
+{
+  "generated_at": "2026-10-19T20:13:36.687540+00:00",
+  "source_file": "tests\\fixtures\\sample_device_telemetry.csv",
+  "filter": {
+    "max_average_temperature": 80.0,
+    "comparison": "less_than_or_equal"
+  },
+  "devices": [
+    {
+      "device_id": "DEV_A",
+      "total_records": 2,
+      "average_temperature": 45.0,
+      "error_count": 1
+    },
+    {
+      "device_id": "DEV_B",
+      "total_records": 1,
+      "average_temperature": 80.0,
+      "error_count": 0
+    }
+  ],
+  "metadata": {
+    "total_input_rows": 4,
+    "valid_rows": 4,
+    "rejected_rows": 0,
+    "excluded_devices": 1
+  }
+}
