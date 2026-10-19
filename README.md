@@ -8,7 +8,7 @@ Validate a CSV, compare each device's average temperature, export a JSON report,
 
 [![Python 3.10+](https://img.shields.io/badge/Python-3.10%2B-3776AB?logo=python&logoColor=white)](https://www.python.org/)
 [![Charts: Matplotlib](https://img.shields.io/badge/Charts-Matplotlib-11557C)](https://matplotlib.org/)
-[![Tests: unittest](https://img.shields.io/badge/Tests-unittest-2ea44f)](#-test-it)
+[![Tests: unittest](https://img.shields.io/badge/Tests-unittest-2ea44f)](#test-it)
 [![Assessment data](https://img.shields.io/badge/Sample%20data-synthetic-orange)](#assessment-status)
 
 **[Quick start](#quick-start) · [See the chart](#chart-preview) · [Data rules](#data-rules) · [Run tests](#test-it) · [Assessment status](#assessment-status)**
