@@ -1,0 +1,1221 @@
+- generic [ref=f7e1]:
+  - generic [ref=f7e3]:
+    - banner "Global navigation menu" [ref=f7e4]:
+      - generic [ref=f7e5]:
+        - generic [ref=f7e6]:
+          - button "Open menu" [ref=f7e8] [cursor=pointer]
+          - link "Homepage (g then d)" [ref=f7e11] [cursor=pointer]:
+            - /url: /
+        - generic [ref=f7e14]:
+          - navigation "Breadcrumbs" [ref=f7e15]:
+            - list [ref=f7e16]:
+              - listitem [ref=f7e17]:
+                - link "Kanishk3105" [ref=f7e18] [cursor=pointer]:
+                  - /url: /Kanishk3105
+              - listitem [ref=f7e20]:
+                - link "CareerOS" [ref=f7e21] [cursor=pointer]:
+                  - /url: /Kanishk3105/CareerOS
+                - button "Switch repository (alt shift r)" [ref=f7e24] [cursor=pointer]
+          - button "Open quick search dialog, type / to search" [ref=f7e29] [cursor=pointer]:
+            - generic [ref=f7e31]:
+              - generic:
+                - text: Type
+                - generic: /
+                - text: to search
+        - generic [ref=f7e32]:
+          - generic [ref=f7e33]:
+            - generic [ref=f7e36]:
+              - link "Chat with Copilot" [ref=f7e38] [cursor=pointer]:
+                - /url: /copilot
+              - button "Open Copilot…" [ref=f7e43] [cursor=pointer]
+            - button "Create new..." [ref=f7e45] [cursor=pointer]
+            - generic [ref=f7e47]:
+              - link "All issues" [ref=f7e48] [cursor=pointer]:
+                - /url: /issues
+              - link "All pull requests" [ref=f7e52] [cursor=pointer]:
+                - /url: /pulls
+              - link "All repositories" [ref=f7e55] [cursor=pointer]:
+                - /url: /repos
+          - link "You have no unread notifications (g then n)" [ref=f7e58] [cursor=pointer]:
+            - /url: /notifications
+          - button "Open user navigation menu" [ref=f7e62] [cursor=pointer]:
+            - img "kanishk chhachra" [ref=f7e63]
+      - heading "Repository navigation" [level=2] [ref=f7e64]
+      - navigation "Repository" [ref=f7e65]:
+        - list [ref=f7e66]:
+          - listitem [ref=f7e67]:
+            - link "Code" [ref=f7e68] [cursor=pointer]:
+              - /url: /Kanishk3105/CareerOS
+          - listitem [ref=f7e73]:
+            - link "Issues" [ref=f7e74] [cursor=pointer]:
+              - /url: /Kanishk3105/CareerOS/issues
+          - listitem [ref=f7e80]:
+            - link "Pull requests" [ref=f7e81] [cursor=pointer]:
+              - /url: /Kanishk3105/CareerOS/pulls
+          - listitem [ref=f7e86]:
+            - link "Agents" [ref=f7e87] [cursor=pointer]:
+              - /url: /Kanishk3105/CareerOS/agents?author=Kanishk3105
+          - listitem [ref=f7e93]:
+            - link "Actions" [ref=f7e94] [cursor=pointer]:
+              - /url: /Kanishk3105/CareerOS/actions
+          - listitem [ref=f7e99]:
+            - link "Projects" [ref=f7e100] [cursor=pointer]:
+              - /url: /Kanishk3105/CareerOS/projects
+          - listitem [ref=f7e105]:
+            - link "Security and quality" [ref=f7e106] [cursor=pointer]:
+              - /url: /Kanishk3105/CareerOS/security
+          - listitem [ref=f7e111]:
+            - link "Insights" [ref=f7e112] [cursor=pointer]:
+              - /url: /Kanishk3105/CareerOS/network/dependencies
+          - listitem [ref=f7e117]:
+            - link "Settings" [ref=f7e118] [cursor=pointer]:
+              - /url: /Kanishk3105/CareerOS/settings
+    - main [ref=f7e123]:
+      - generic [ref=f7e132]:
+        - generic [ref=f7e136]:
+          - generic [ref=f7e139]:
+            - img "Kanishk3105" [ref=f7e140]
+            - generic "CareerOS" [ref=f7e141]:
+              - strong [ref=f7e142]:
+                - link "CareerOS" [ref=f7e143] [cursor=pointer]:
+                  - /url: /Kanishk3105/CareerOS
+            - generic [ref=f7e144]: Private
+          - list [ref=f7e146]:
+            - listitem [ref=f7e147]:
+              - 'button "Watch: Participating in Kanishk3105/CareerOS. 0 users are watching this repository. Click to change subscription settings." [ref=f7e148] [cursor=pointer]':
+                - generic [ref=f7e149]:
+                  - generic [ref=f7e150]: Watch
+                  - generic:
+                    - generic [aria-hidden]: "0"
+                    - generic: (0)
+            - listitem [ref=f7e151]:
+              - button "You own Kanishk3105/CareerOS and are not a member of any organizations" [ref=f7e152]:
+                - generic [ref=f7e154]:
+                  - text: Fork
+                  - generic [aria-hidden] [ref=f7e155]: "0"
+                  - generic [ref=f7e156]: (0)
+            - listitem [ref=f7e157]:
+              - generic [ref=f7e158]:
+                - button "Star Kanishk3105/CareerOS" [ref=f7e161] [cursor=pointer]:
+                  - generic [ref=f7e163]:
+                    - text: Star
+                    - generic [aria-hidden] [ref=f7e164]: "0"
+                    - generic [ref=f7e165]: (0)
+                - button "Star lists" [ref=f7e167] [cursor=pointer]
+        - generic [ref=f7e170]:
+          - generic [ref=f7e173]:
+            - generic [ref=f7e174]:
+              - generic [ref=f7e175]:
+                - button "main branch" [ref=f7e177] [cursor=pointer]:
+                  - generic [ref=f7e178]: main
+                - generic [ref=f7e182]:
+                  - link [ref=f7e183] [cursor=pointer]:
+                    - /url: /Kanishk3105/CareerOS/branches
+                    - generic [ref=f7e186]:
+                      - strong [ref=f7e187]: "10"
+                      - text: Branches
+                  - link [ref=f7e188] [cursor=pointer]:
+                    - /url: /Kanishk3105/CareerOS/tags
+                    - generic [ref=f7e191]:
+                      - strong [ref=f7e192]: "1"
+                      - text: Tag
+              - generic [ref=f7e193]:
+                - generic [ref=f7e194]:
+                  - generic [ref=f7e197]:
+                    - combobox "Go to file" [ref=f7e201]
+                    - generic [ref=f7e204]:
+                      - generic [ref=f7e205]: t
+                      - generic [aria-hidden] [ref=f7e206]: T
+                  - generic [ref=f7e207]:
+                    - heading "Add file" [level=2] [ref=f7e208]
+                    - button "Add file" [ref=f7e209] [cursor=pointer]
+                - button "Code" [ref=f7e215] [cursor=pointer]
+            - generic [ref=f7e218]:
+              - generic [ref=f7e219]:
+                - generic [ref=f7e221]:
+                  - heading "Latest commit" [level=2] [ref=f7e222]
+                  - generic [ref=f7e223]:
+                    - generic [ref=f7e225]:
+                      - link [ref=f7e226] [cursor=pointer]:
+                        - /url: /Kanishk3105
+                        - img "Kanishk3105" [ref=f7e227]
+                      - link "commits by Kanishk3105" [ref=f7e228] [cursor=pointer]:
+                        - /url: /Kanishk3105/CareerOS/commits?author=Kanishk3105
+                        - text: Kanishk3105
+                    - generic [ref=f7e229]:
+                      - 'link "feat: finalize CareerOS implementation" [ref=f7e232] [cursor=pointer]':
+                        - /url: /Kanishk3105/CareerOS/commit/a430c7c564599d8452d223d8cc32181afdb83019
+                      - button "success" [ref=f7e233] [cursor=pointer]
+                  - generic [ref=f7e236]:
+                    - generic [ref=f7e238]:
+                      - link "Commit a430c7c" [ref=f7e239] [cursor=pointer]:
+                        - /url: /Kanishk3105/CareerOS/commit/a430c7c564599d8452d223d8cc32181afdb83019
+                        - text: a430c7c
+                      - text: ·
+                      - generic "Oct 2, 2026, 5:54 AM GMT+5:30" [ref=f7e240]: Oct 2, 20263 weeks ago
+                    - generic [ref=f7e241]:
+                      - heading "History" [level=2] [ref=f7e242]
+                      - link "131 Commits" [ref=f7e243] [cursor=pointer]:
+                        - /url: /Kanishk3105/CareerOS/commits/main/
+                - heading "Folders and files" [level=2] [ref=f7e246]
+                - table "Folders and files" [ref=f7e248]:
+                  - rowgroup:
+                    - row "Name Last commit message Last commit date":
+                      - columnheader "Name"
+                      - columnheader "Last commit message"
+                      - columnheader "Last commit date"
+                  - rowgroup [ref=f7e249]:
+                    - row [ref=f7e250]:
+                      - cell [ref=f7e251]:
+                        - link ".github, (Directory)" [ref=f7e258] [cursor=pointer]:
+                          - /url: /Kanishk3105/CareerOS/tree/main/.github
+                          - text: .github
+                      - cell [ref=f7e259]:
+                        - link "Your commit message" [ref=f7e262] [cursor=pointer]:
+                          - /url: /Kanishk3105/CareerOS/commit/48fec537ee16ac0753e1d35d898330705f555230
+                      - cell "Aug 1, 20262 months ago" [ref=f7e263]
+                    - row [ref=f7e265]:
+                      - cell [ref=f7e266]:
+                        - link "backend, (Directory)" [ref=f7e273] [cursor=pointer]:
+                          - /url: /Kanishk3105/CareerOS/tree/main/backend
+                          - text: backend
+                      - cell [ref=f7e274]:
+                        - 'link "feat: finalize CareerOS implementation" [ref=f7e277] [cursor=pointer]':
+                          - /url: /Kanishk3105/CareerOS/commit/a430c7c564599d8452d223d8cc32181afdb83019
+                      - cell "Oct 2, 20263 weeks ago" [ref=f7e278]
+                    - row [ref=f7e280]:
+                      - cell [ref=f7e281]:
+                        - link "docs, (Directory)" [ref=f7e288] [cursor=pointer]:
+                          - /url: /Kanishk3105/CareerOS/tree/main/docs
+                          - text: docs
+                      - cell [ref=f7e289]:
+                        - 'link "feat: finalize CareerOS implementation" [ref=f7e292] [cursor=pointer]':
+                          - /url: /Kanishk3105/CareerOS/commit/a430c7c564599d8452d223d8cc32181afdb83019
+                      - cell "Oct 2, 20263 weeks ago" [ref=f7e293]
+                    - row [ref=f7e295]:
+                      - cell [ref=f7e296]:
+                        - link "frontend, (Directory)" [ref=f7e303] [cursor=pointer]:
+                          - /url: /Kanishk3105/CareerOS/tree/main/frontend
+                          - text: frontend
+                      - cell [ref=f7e304]:
+                        - 'link "feat: finalize CareerOS implementation" [ref=f7e307] [cursor=pointer]':
+                          - /url: /Kanishk3105/CareerOS/commit/eee49221f8a37691ac164833e209aafa8630b0bd
+                      - cell "Oct 1, 20263 weeks ago" [ref=f7e308]
+                    - row [ref=f7e310]:
+                      - cell [ref=f7e311]:
+                        - link ".gitignore, (File)" [ref=f7e318] [cursor=pointer]:
+                          - /url: /Kanishk3105/CareerOS/blob/main/.gitignore
+                          - text: .gitignore
+                      - cell [ref=f7e319]:
+                        - 'link "feat: finalize CareerOS implementation" [ref=f7e322] [cursor=pointer]':
+                          - /url: /Kanishk3105/CareerOS/commit/eee49221f8a37691ac164833e209aafa8630b0bd
+                      - cell "Oct 1, 20263 weeks ago" [ref=f7e323]
+                    - row [ref=f7e325]:
+                      - cell [ref=f7e326]:
+                        - link "LICENSE, (File)" [ref=f7e333] [cursor=pointer]:
+                          - /url: /Kanishk3105/CareerOS/blob/main/LICENSE
+                          - text: LICENSE
+                      - cell [ref=f7e334]:
+                        - link "Initial commit" [ref=f7e337] [cursor=pointer]:
+                          - /url: /Kanishk3105/CareerOS/commit/8ac5edb4d4927432438315e381d354442a764b72
+                      - cell "Aug 1, 20262 months ago" [ref=f7e338]
+                    - row [ref=f7e340]:
+                      - cell [ref=f7e341]:
+                        - link "README.md, (File)" [ref=f7e348] [cursor=pointer]:
+                          - /url: /Kanishk3105/CareerOS/blob/main/README.md
+                          - text: README.md
+                      - cell [ref=f7e349]:
+                        - 'link "feat: finalize CareerOS implementation" [ref=f7e352] [cursor=pointer]':
+                          - /url: /Kanishk3105/CareerOS/commit/a430c7c564599d8452d223d8cc32181afdb83019
+                      - cell "Oct 2, 20263 weeks ago" [ref=f7e353]
+              - generic [ref=f7e356]:
+                - generic [ref=f7e357]:
+                  - heading "Repository files navigation" [level=2] [ref=f7e358]
+                  - navigation "Repository files" [ref=f7e359]:
+                    - list [ref=f7e360]:
+                      - listitem [ref=f7e361]:
+                        - link "README" [ref=f7e362] [cursor=pointer]:
+                          - /url: "#"
+                      - listitem [ref=f7e367]:
+                        - link "Code of conduct" [ref=f7e368] [cursor=pointer]:
+                          - /url: "#"
+                      - listitem [ref=f7e373]:
+                        - link "Contributing" [ref=f7e374] [cursor=pointer]:
+                          - /url: "#"
+                      - listitem [ref=f7e379]:
+                        - link "MIT license" [ref=f7e380] [cursor=pointer]:
+                          - /url: "#"
+                      - listitem [ref=f7e385]:
+                        - link "Security" [ref=f7e386] [cursor=pointer]:
+                          - /url: "#"
+                  - button "Edit file" [ref=f7e391] [cursor=pointer]
+                  - button "Outline" [ref=f7e394] [cursor=pointer]
+                - article [ref=f7e398]:
+                  - paragraph [ref=f7e399]:
+                    - link [ref=f7e400] [cursor=pointer]:
+                      - /url: /Kanishk3105/CareerOS/blob/main/docs/assets/careeros-hero.svg
+                      - img "CareerOS — Your career, held in one orbit. An orbit system where each ring is a pipeline stage." [ref=f7e401]
+                  - generic [ref=f7e402]:
+                    - heading "CareerOS" [level=1] [ref=f7e403]
+                    - 'link "Permalink: CareerOS" [ref=f7e404] [cursor=pointer]':
+                      - /url: "#careeros"
+                  - paragraph [ref=f7e407]: "Your career, held in one orbit. A career operating system: one record of who you are, roles scored against it with the reasons why, applications sent to exactly the role you chose, interview practice, and a clear next step — all connected."
+                  - paragraph [ref=f7e408]:
+                    - link [ref=f7e409] [cursor=pointer]:
+                      - /url: /Kanishk3105/CareerOS/blob/main/LICENSE
+                      - 'img "License: MIT" [ref=f7e410]'
+                    - link [ref=f7e411] [cursor=pointer]:
+                      - /url: /Kanishk3105/CareerOS/blob/main/docs/assets/badges/typescript.svg
+                      - 'img "Language: TypeScript" [ref=f7e412]'
+                    - link [ref=f7e413] [cursor=pointer]:
+                      - /url: /Kanishk3105/CareerOS/blob/main/docs/assets/badges/react.svg
+                      - 'img "UI: React 19" [ref=f7e414]'
+                    - link [ref=f7e415] [cursor=pointer]:
+                      - /url: /Kanishk3105/CareerOS/blob/main/docs/assets/badges/three.svg
+                      - 'img "3D: three.js and React Three Fiber" [ref=f7e416]'
+                    - link [ref=f7e417] [cursor=pointer]:
+                      - /url: /Kanishk3105/CareerOS/blob/main/docs/assets/badges/vite.svg
+                      - 'img "Build: Vite 8" [ref=f7e418]'
+                    - link [ref=f7e419] [cursor=pointer]:
+                      - /url: /Kanishk3105/CareerOS/blob/main/docs/assets/badges/express.svg
+                      - 'img "API: Express 5" [ref=f7e420]'
+                    - link [ref=f7e421] [cursor=pointer]:
+                      - /url: /Kanishk3105/CareerOS/blob/main/docs/assets/badges/sqlite.svg
+                      - 'img "Data: SQLite" [ref=f7e422]'
+                    - link [ref=f7e423] [cursor=pointer]:
+                      - /url: /Kanishk3105/CareerOS/blob/main/docs/assets/badges/vitest.svg
+                      - 'img "Tests: Vitest" [ref=f7e424]'
+                  - paragraph [ref=f7e425]:
+                    - link "The loop" [ref=f7e426] [cursor=pointer]:
+                      - /url: "#the-careeros-loop"
+                    - text: ·
+                    - link "How it works" [ref=f7e427] [cursor=pointer]:
+                      - /url: "#how-careeros-works"
+                    - text: ·
+                    - link "Interface" [ref=f7e428] [cursor=pointer]:
+                      - /url: "#product-interface"
+                    - text: ·
+                    - link "Features" [ref=f7e429] [cursor=pointer]:
+                      - /url: "#features"
+                    - text: ·
+                    - link "Architecture" [ref=f7e430] [cursor=pointer]:
+                      - /url: "#architecture"
+                    - text: ·
+                    - link "Getting started" [ref=f7e431] [cursor=pointer]:
+                      - /url: "#getting-started"
+                    - text: ·
+                    - link "API" [ref=f7e432] [cursor=pointer]:
+                      - /url: "#api"
+                    - text: ·
+                    - link "Testing" [ref=f7e433] [cursor=pointer]:
+                      - /url: "#testing"
+                    - text: ·
+                    - link "Roadmap" [ref=f7e434] [cursor=pointer]:
+                      - /url: "#roadmap"
+                    - text: ·
+                    - link "Specifications" [ref=f7e435] [cursor=pointer]:
+                      - /url: /Kanishk3105/CareerOS/blob/main/docs
+                  - paragraph [ref=f7e436]:
+                    - link [ref=f7e437] [cursor=pointer]:
+                      - /url: /Kanishk3105/CareerOS/blob/main/docs/assets/divider.svg
+                  - generic [ref=f7e438]:
+                    - heading "Why CareerOS" [level=2] [ref=f7e439]
+                    - 'link "Permalink: Why CareerOS" [ref=f7e440] [cursor=pointer]':
+                      - /url: "#why-careeros"
+                  - paragraph [ref=f7e443]: "A job search usually lives in a dozen places: a resume file, job boards, a spreadsheet of applications, the same form questions answered again and again, interview notes, half-remembered goals. None of them know about each other."
+                  - paragraph [ref=f7e444]: "CareerOS keeps one career record and builds everything on it:"
+                  - list [ref=f7e445]:
+                    - listitem [ref=f7e446]:
+                      - strong [ref=f7e447]: Your profile is the source of truth.
+                      - text: Your resume fills it — but only with what you review and keep.
+                    - listitem [ref=f7e448]:
+                      - strong [ref=f7e449]: Every role is scored against it
+                      - text: with a deterministic matcher, and every recommendation says
+                      - emphasis [ref=f7e450]: why
+                      - text: and
+                      - emphasis [ref=f7e451]: what's missing
+                      - text: .
+                    - listitem [ref=f7e452]:
+                      - strong [ref=f7e453]: Applying reuses what CareerOS already knows
+                      - text: — profile fields and answers you chose to remember — and applies to exactly the posting you picked.
+                    - listitem [ref=f7e454]:
+                      - strong [ref=f7e455]: The pipeline, interview practice and analytics
+                      - text: all read from the same record, so Control can tell you the single most useful thing to do next.
+                  - paragraph [ref=f7e456]: No number on screen is invented. Scores come from the matcher, readiness is a count of named checks, and rates come from your own outcomes.
+                  - paragraph [ref=f7e457]:
+                    - link [ref=f7e458] [cursor=pointer]:
+                      - /url: /Kanishk3105/CareerOS/blob/main/docs/assets/divider.svg
+                  - generic [ref=f7e459]:
+                    - heading "The CareerOS loop" [level=2] [ref=f7e460]
+                    - 'link "Permalink: The CareerOS loop" [ref=f7e461] [cursor=pointer]':
+                      - /url: "#the-careeros-loop"
+                  - paragraph [ref=f7e464]:
+                    - link [ref=f7e465] [cursor=pointer]:
+                      - /url: /Kanishk3105/CareerOS/blob/main/docs/assets/careeros-loop.svg
+                      - 'img "The CareerOS loop: Profile, Resume, Recommendations, Easy Apply, Applications, Interviews, Insights and Memory around one career record, with seven agents in the centre." [ref=f7e466]'
+                  - region "mermaid rendered output container" [ref=f7e467]:
+                    - generic [ref=f7e468]:
+                      - generic [ref=f7e469]:
+                        - group [ref=f7e470]:
+                          - button "Open dialog" [ref=f7e471] [cursor=pointer]
+                        - button "Copy mermaid code" [ref=f7e474] [cursor=pointer]
+                      - iframe [ref=f7e479]:
+                        - generic [ref=f10e1]:
+                          - document [ref=f10e5]:
+                            - generic [ref=f10e7]:
+                              - generic [ref=f10e8]:
+                                - paragraph [ref=f10e15]: 4 · Learn
+                                - paragraph [ref=f10e22]: 3 · Act
+                                - paragraph [ref=f10e29]: 2 · Decide
+                                - paragraph [ref=f10e36]: 1 · Understand
+                              - generic [ref=f10e40]:
+                                - paragraph [ref=f10e47]: Resumeupload · review
+                                - paragraph [ref=f10e54]: Profilesource of truth
+                                - paragraph [ref=f10e61]: Readiness &career direction
+                                - paragraph [ref=f10e68]: Job matchingjob-matching-v2
+                                - paragraph [ref=f10e75]: Recommendationswith reasons
+                                - paragraph [ref=f10e82]: Easy Apply
+                                - paragraph [ref=f10e89]: Applicationspipeline
+                                - paragraph [ref=f10e96]: Interviewpreparation
+                                - paragraph [ref=f10e103]: Insights
+                                - paragraph [ref=f10e110]: Career memory & saved answersfeed back into the profile
+                                - paragraph [ref=f10e119]: 7 agents · propose, you approve
+                          - generic [ref=f10e120]:
+                            - button "Zoom in" [ref=f10e121] [cursor=pointer]
+                            - button "Zoom out" [ref=f10e125] [cursor=pointer]
+                            - button "Reset view" [ref=f10e129] [cursor=pointer]
+                            - button "Pan up" [ref=f10e132] [cursor=pointer]
+                            - button "Pan down" [ref=f10e135] [cursor=pointer]
+                            - button "Pan left" [ref=f10e138] [cursor=pointer]
+                            - button "Pan right" [ref=f10e141] [cursor=pointer]
+                  - paragraph [ref=f7e480]:
+                    - link [ref=f7e481] [cursor=pointer]:
+                      - /url: /Kanishk3105/CareerOS/blob/main/docs/assets/divider.svg
+                  - generic [ref=f7e482]:
+                    - heading "How CareerOS works" [level=2] [ref=f7e483]
+                    - 'link "Permalink: How CareerOS works" [ref=f7e484] [cursor=pointer]':
+                      - /url: "#how-careeros-works"
+                  - table [ref=f7e488]:
+                    - rowgroup [ref=f7e489]:
+                      - row [ref=f7e490]:
+                        - cell [ref=f7e491]:
+                          - subscript [ref=f7e492]:
+                            - code [ref=f7e493]: "01"
+                            - text: ·
+                            - code [ref=f7e494]: /app/welcome
+                          - text: Start with your resume Upload a PDF, Word (.docx) or text file. CareerOS reads it deterministically — name, contact, links, roles, education, skills, projects.
+                        - cell [ref=f7e495]:
+                          - subscript [ref=f7e496]:
+                            - code [ref=f7e497]: "02"
+                            - text: ·
+                            - code [ref=f7e498]: /app/profile/resume/:id
+                          - text: Review what it read Every value shows the resume line it came from. Keep, correct or untick — nothing reaches your profile until you save.
+                      - row [ref=f7e499]:
+                        - cell [ref=f7e500]:
+                          - subscript [ref=f7e501]:
+                            - code [ref=f7e502]: "03"
+                            - text: ·
+                            - code [ref=f7e503]: /app/welcome
+                          - text: Fill only the gaps Onboarding asks just for what the profile still lacks — target roles, work mode, phone — and never asks again.
+                        - cell [ref=f7e504]:
+                          - subscript [ref=f7e505]:
+                            - code [ref=f7e506]: "04"
+                            - text: ·
+                            - code [ref=f7e507]: /app/recommendations
+                          - text: See roles that fit, and why Every active posting is scored against your profile and sorted into high alignment, good fit, stretch and skill-building.
+                      - row [ref=f7e508]:
+                        - cell [ref=f7e509]:
+                          - subscript [ref=f7e510]:
+                            - code [ref=f7e511]: "05"
+                            - text: ·
+                            - code [ref=f7e512]: /app/jobs/:jobId/apply
+                          - text: Easy Apply Known answers are filled in, only the unknown ones are asked, sensitive ones are confirmed by you — then it applies to that exact posting.
+                        - cell [ref=f7e513]:
+                          - subscript [ref=f7e514]:
+                            - code [ref=f7e515]: "06"
+                            - text: ·
+                            - code [ref=f7e516]: /app/applications
+                          - text: Track every application A ten-stage pipeline with enforced transitions, deadlines, follow-ups, activities and the record of exactly what was sent.
+                      - row [ref=f7e517]:
+                        - cell [ref=f7e518]:
+                          - subscript [ref=f7e519]:
+                            - code [ref=f7e520]: "07"
+                            - text: ·
+                            - code [ref=f7e521]: /app/interviews
+                          - text: Prepare for interviews A plan built from the posting and your own experience, practice with a structure check, and timed mock interviews.
+                        - cell [ref=f7e522]:
+                          - subscript [ref=f7e523]:
+                            - code [ref=f7e524]: "08"
+                            - text: ·
+                            - code [ref=f7e525]: /app
+                            - text: ·
+                            - code [ref=f7e526]: /app/analytics
+                          - text: Act on what's next Control ranks next best actions from real state; agents report what they found; analytics show rates from your own outcomes.
+                  - paragraph [ref=f7e527]:
+                    - link [ref=f7e528] [cursor=pointer]:
+                      - /url: /Kanishk3105/CareerOS/blob/main/docs/assets/divider.svg
+                  - generic [ref=f7e529]:
+                    - heading "Product interface" [level=2] [ref=f7e530]
+                    - 'link "Permalink: Product interface" [ref=f7e531] [cursor=pointer]':
+                      - /url: "#product-interface"
+                  - paragraph [ref=f7e534]:
+                    - text: Real screens from the running app, captured with
+                    - link [ref=f7e535] [cursor=pointer]:
+                      - /url: /Kanishk3105/CareerOS/blob/main/docs/assets/tools/capture-screenshots.mjs
+                      - code [ref=f7e536]: docs/assets/tools/capture-screenshots.mjs
+                    - text: for a fictional user against the development job catalog (fictional companies).
+                  - table [ref=f7e538]:
+                    - rowgroup [ref=f7e539]:
+                      - row [ref=f7e540]:
+                        - cell [ref=f7e541]:
+                          - link [ref=f7e542] [cursor=pointer]:
+                            - /url: /Kanishk3105/CareerOS/blob/main/docs/assets/screenshots/landing.webp
+                            - 'img "Landing page: ''Your career, held in one orbit.'' beside a 3D orbit and a 13-chapter index" [ref=f7e543]'
+                          - subscript [ref=f7e544]: Landing — a scroll-driven 3D journey through 13 chapters, each with an honest status tag.
+                      - row [ref=f7e545]:
+                        - cell [ref=f7e546]:
+                          - link [ref=f7e547] [cursor=pointer]:
+                            - /url: /Kanishk3105/CareerOS/blob/main/docs/assets/screenshots/control.webp
+                            - 'img "Control: greeting, status line, readouts and the next best action" [ref=f7e548]'
+                          - subscript [ref=f7e549]: Control — what needs you now, the next best action, and what the agents are doing.
+                        - cell [ref=f7e550]:
+                          - link [ref=f7e551] [cursor=pointer]:
+                            - /url: /Kanishk3105/CareerOS/blob/main/docs/assets/screenshots/recommendations.webp
+                            - 'img "Recommendations: three scored role cards with reasons and gaps" [ref=f7e552]'
+                          - subscript [ref=f7e553]: Recommendations — deterministic scores, the reasons behind them, and what's missing.
+                      - row [ref=f7e554]:
+                        - cell [ref=f7e555]:
+                          - link [ref=f7e556] [cursor=pointer]:
+                            - /url: /Kanishk3105/CareerOS/blob/main/docs/assets/screenshots/resume-review.webp
+                            - 'img "Resume review: extracted fields with the resume line each came from" [ref=f7e557]'
+                          - subscript [ref=f7e558]: Resume review — every extracted value with its source line; you decide what's saved.
+                        - cell [ref=f7e559]:
+                          - link [ref=f7e560] [cursor=pointer]:
+                            - /url: /Kanishk3105/CareerOS/blob/main/docs/assets/screenshots/easy-apply.webp
+                            - img "Easy Apply final review with a stepper and the exact posting being applied to" [ref=f7e561]
+                          - subscript [ref=f7e562]: Easy Apply — final review of everything that will be sent, to exactly this posting.
+                      - row [ref=f7e563]:
+                        - cell [ref=f7e564]:
+                          - link [ref=f7e565] [cursor=pointer]:
+                            - /url: /Kanishk3105/CareerOS/blob/main/docs/assets/screenshots/applications.webp
+                            - img "Applications pipeline with stage counts and application rows" [ref=f7e566]
+                          - subscript [ref=f7e567]: Applications — pipeline stages as filters, with each row's next action and resume.
+                        - cell [ref=f7e568]:
+                          - link [ref=f7e569] [cursor=pointer]:
+                            - /url: /Kanishk3105/CareerOS/blob/main/docs/assets/screenshots/interview-practice.webp
+                            - 'img "Interview practice: an answer with its structure check and a 1-5 confidence rating" [ref=f7e570]'
+                          - subscript [ref=f7e571]: Interview practice — a rule-based structure check, then your own confidence rating.
+                      - row [ref=f7e572]:
+                        - cell [ref=f7e573]:
+                          - link [ref=f7e574] [cursor=pointer]:
+                            - /url: /Kanishk3105/CareerOS/blob/main/docs/assets/screenshots/agents.webp
+                            - img "Agent proposals with why, what approving does, and what's still needed" [ref=f7e575]
+                          - subscript [ref=f7e576]: Agents — proposals explain why, what approving does, and what's still needed.
+                        - cell [ref=f7e577]:
+                          - link [ref=f7e578] [cursor=pointer]:
+                            - /url: /Kanishk3105/CareerOS/blob/main/docs/assets/screenshots/job-universe.webp
+                            - 'img "Job universe: postings as stars coloured by fit" [ref=f7e579]'
+                          - subscript [ref=f7e580]: Job universe — every posting a star, coloured by how well it fits your profile.
+                  - group [ref=f7e581]:
+                    - generic "More screens — onboarding, job match, interview plan, memory, profile, analytics, mobile" [ref=f7e582] [cursor=pointer]
+                  - paragraph [ref=f7e583]:
+                    - link [ref=f7e584] [cursor=pointer]:
+                      - /url: /Kanishk3105/CareerOS/blob/main/docs/assets/divider.svg
+                  - generic [ref=f7e585]:
+                    - heading "Features" [level=2] [ref=f7e586]
+                    - 'link "Permalink: Features" [ref=f7e587] [cursor=pointer]':
+                      - /url: "#features"
+                  - table [ref=f7e591]:
+                    - rowgroup [ref=f7e592]:
+                      - row [ref=f7e593]:
+                        - cell [ref=f7e594]:
+                          - link "Control" [ref=f7e596] [cursor=pointer]:
+                            - /url: "#control--next-best-actions"
+                          - subscript [ref=f7e597]: Next best actions ranked from real state, a live status line, readouts and agent activity.
+                        - cell [ref=f7e598]:
+                          - link "Resume intelligence" [ref=f7e600] [cursor=pointer]:
+                            - /url: "#resume-intelligence"
+                          - subscript [ref=f7e601]: PDF, .docx and text read deterministically, every value traceable to its source line.
+                        - cell [ref=f7e602]:
+                          - link "Profile & readiness" [ref=f7e604] [cursor=pointer]:
+                            - /url: "#profile--readiness"
+                          - subscript [ref=f7e605]: The single source of truth, with readiness as named checks — no invented percentages.
+                      - row [ref=f7e606]:
+                        - cell [ref=f7e607]:
+                          - link "Job matching" [ref=f7e609] [cursor=pointer]:
+                            - /url: "#job-matching"
+                          - subscript [ref=f7e610]: A deterministic, versioned matcher with skill aliases and full provenance.
+                        - cell [ref=f7e611]:
+                          - link "Recommendations" [ref=f7e613] [cursor=pointer]:
+                            - /url: "#recommendations"
+                          - subscript [ref=f7e614]: Sections, reasons, gaps, your strongest direction and the skills that open most roles.
+                        - cell [ref=f7e615]:
+                          - link "Easy Apply" [ref=f7e617] [cursor=pointer]:
+                            - /url: "#easy-apply"
+                          - subscript [ref=f7e618]: Idempotent, transactional, and bound to the exact posting you chose.
+                      - row [ref=f7e619]:
+                        - cell [ref=f7e620]:
+                          - link "Career memory" [ref=f7e622] [cursor=pointer]:
+                            - /url: "#career-memory--saved-answers"
+                          - subscript [ref=f7e623]: Dated facts with provenance and visibility, plus answers reused only for the same question.
+                        - cell [ref=f7e624]:
+                          - link "Application tracking" [ref=f7e626] [cursor=pointer]:
+                            - /url: "#application-tracking"
+                          - subscript [ref=f7e627]: Ten stages, enforced transitions, deadlines, activities and an append-only history.
+                        - cell [ref=f7e628]:
+                          - link "Interview preparation" [ref=f7e630] [cursor=pointer]:
+                            - /url: "#interview-preparation"
+                          - subscript [ref=f7e631]: Plans from real context, practice with a structure check, timed simulated mocks.
+                      - row [ref=f7e632]:
+                        - cell [ref=f7e633]:
+                          - link "Agents" [ref=f7e635] [cursor=pointer]:
+                            - /url: "#agents"
+                          - subscript [ref=f7e636]: Seven deterministic agents with real run states and approvals for anything that changes your pipeline.
+                        - cell [ref=f7e637]:
+                          - link "Insights" [ref=f7e639] [cursor=pointer]:
+                            - /url: "#insights"
+                          - subscript [ref=f7e640]: Response, interview and offer rates, funnel, stages and monthly activity from your own history.
+                        - cell [ref=f7e641]:
+                          - link "Experience layer" [ref=f7e643] [cursor=pointer]:
+                            - /url: "#experience-layer"
+                          - subscript [ref=f7e644]: 3D scenes, inertial scroll, view transitions and a custom cursor — all with accessible fallbacks.
+                  - generic [ref=f7e645]:
+                    - heading "Control & next best actions" [level=3] [ref=f7e646]
+                    - 'link "Permalink: Control & next best actions" [ref=f7e647] [cursor=pointer]':
+                      - /url: "#control--next-best-actions"
+                  - paragraph [ref=f7e650]:
+                    - text: The landing route after sign-in (
+                    - code [ref=f7e651]: /app
+                    - text: ). A status line built from real counts, readouts from the application analytics, the
+                    - strong [ref=f7e652]: next best action
+                    - text: as a hero card, the rest of the ranked list, what each agent last did, recommended roles, the pipeline orbit, readiness, deadlines, interviews and recent activity.
+                  - group [ref=f7e653]:
+                    - generic "How next best actions are chosen" [ref=f7e654] [cursor=pointer]
+                  - generic [ref=f7e655]:
+                    - heading "Resume intelligence" [level=3] [ref=f7e656]
+                    - 'link "Permalink: Resume intelligence" [ref=f7e657] [cursor=pointer]':
+                      - /url: "#resume-intelligence"
+                  - group [ref=f7e660]:
+                    - generic "Upload, extraction, review and reuse" [ref=f7e661] [cursor=pointer]
+                  - generic [ref=f7e662]:
+                    - heading "Profile & readiness" [level=3] [ref=f7e663]
+                    - 'link "Permalink: Profile & readiness" [ref=f7e664] [cursor=pointer]':
+                      - /url: "#profile--readiness"
+                  - group [ref=f7e667]:
+                    - generic "The source of truth, and two readiness checklists" [ref=f7e668] [cursor=pointer]
+                  - generic [ref=f7e669]:
+                    - heading "Job matching" [level=3] [ref=f7e670]
+                    - 'link "Permalink: Job matching" [ref=f7e671] [cursor=pointer]':
+                      - /url: "#job-matching"
+                  - group [ref=f7e674]:
+                    - generic "How a match score is computed" [ref=f7e675] [cursor=pointer]
+                  - generic [ref=f7e676]:
+                    - heading "Recommendations" [level=3] [ref=f7e677]
+                    - 'link "Permalink: Recommendations" [ref=f7e678] [cursor=pointer]':
+                      - /url: "#recommendations"
+                  - group [ref=f7e681]:
+                    - generic "Sections, reasons, direction and gaps" [ref=f7e682] [cursor=pointer]
+                  - generic [ref=f7e683]:
+                    - heading "Easy Apply" [level=3] [ref=f7e684]
+                    - 'link "Permalink: Easy Apply" [ref=f7e685] [cursor=pointer]':
+                      - /url: "#easy-apply"
+                  - group [ref=f7e688]:
+                    - generic "Exactly that role — and no success screen until it's saved" [ref=f7e689] [cursor=pointer]
+                  - generic [ref=f7e690]:
+                    - heading "Career memory & saved answers" [level=3] [ref=f7e691]
+                    - 'link "Permalink: Career memory & saved answers" [ref=f7e692] [cursor=pointer]':
+                      - /url: "#career-memory--saved-answers"
+                  - group [ref=f7e695]:
+                    - generic "What CareerOS remembers, and how answers are reused" [ref=f7e696] [cursor=pointer]
+                  - generic [ref=f7e697]:
+                    - heading "Application tracking" [level=3] [ref=f7e698]
+                    - 'link "Permalink: Application tracking" [ref=f7e699] [cursor=pointer]':
+                      - /url: "#application-tracking"
+                  - group [ref=f7e702]:
+                    - generic "The pipeline and its rules" [ref=f7e703] [cursor=pointer]
+                  - generic [ref=f7e704]:
+                    - heading "Interview preparation" [level=3] [ref=f7e705]
+                    - 'link "Permalink: Interview preparation" [ref=f7e706] [cursor=pointer]':
+                      - /url: "#interview-preparation"
+                  - group [ref=f7e709]:
+                    - generic "Plans, practice and mock interviews" [ref=f7e710] [cursor=pointer]
+                  - generic [ref=f7e711]:
+                    - heading "Agents" [level=3] [ref=f7e712]
+                    - 'link "Permalink: Agents" [ref=f7e713] [cursor=pointer]':
+                      - /url: "#agents"
+                  - group [ref=f7e716]:
+                    - generic "Seven deterministic agents, with approvals" [ref=f7e717] [cursor=pointer]
+                  - generic [ref=f7e718]:
+                    - heading "Insights" [level=3] [ref=f7e719]
+                    - 'link "Permalink: Insights" [ref=f7e720] [cursor=pointer]':
+                      - /url: "#insights"
+                  - group [ref=f7e723]:
+                    - generic "Analytics from your own history" [ref=f7e724] [cursor=pointer]
+                  - generic [ref=f7e725]:
+                    - heading "Experience layer" [level=3] [ref=f7e726]
+                    - 'link "Permalink: Experience layer" [ref=f7e727] [cursor=pointer]':
+                      - /url: "#experience-layer"
+                  - group [ref=f7e730]:
+                    - generic "3D, motion and accessibility" [ref=f7e731] [cursor=pointer]
+                  - paragraph [ref=f7e732]:
+                    - link [ref=f7e733] [cursor=pointer]:
+                      - /url: /Kanishk3105/CareerOS/blob/main/docs/assets/divider.svg
+                  - generic [ref=f7e734]:
+                    - heading "Architecture" [level=2] [ref=f7e735]
+                    - 'link "Permalink: Architecture" [ref=f7e736] [cursor=pointer]':
+                      - /url: "#architecture"
+                  - paragraph [ref=f7e739]:
+                    - link [ref=f7e740] [cursor=pointer]:
+                      - /url: /Kanishk3105/CareerOS/blob/main/docs/assets/careeros-architecture.svg
+                      - 'img "CareerOS architecture: web client, HTTP API, application, domain and services, repositories and SQLite, beside sixteen backend modules." [ref=f7e741]'
+                  - region "mermaid rendered output container" [ref=f7e742]:
+                    - generic [ref=f7e743]:
+                      - generic [ref=f7e744]:
+                        - group [ref=f7e745]:
+                          - button "Open dialog" [ref=f7e746] [cursor=pointer]
+                        - button "Copy mermaid code" [ref=f7e749] [cursor=pointer]
+                      - iframe [ref=f7e754]:
+                        - generic [ref=f11e1]:
+                          - document [ref=f11e5]:
+                            - generic [ref=f11e7]:
+                              - paragraph [ref=f11e19]: /api/v1 · one origin via the Vite proxy in development
+                              - generic [ref=f11e20]:
+                                - paragraph [ref=f11e27]: BrowserReact 19 single-page app
+                                - paragraph [ref=f11e34]: Express 5
+                                - paragraph [ref=f11e41]: Auth middlewareJWT · revocation · rate limits
+                                - paragraph [ref=f11e48]: Controllersbackend/src/api
+                                - paragraph [ref=f11e55]: Use casesbackend/src/application
+                                - paragraph [ref=f11e62]: Pure servicesmatching · recommendations · readinessnext actions · resume parsing · interview plans
+                                - paragraph [ref=f11e69]: Repository interfacesbackend/src/repositories
+                                - paragraph [ref=f11e76]: Audit events
+                                - paragraph [ref=f11e83]: SQLitebetter-sqlite3
+                          - generic [ref=f11e84]:
+                            - button "Zoom in" [ref=f11e85] [cursor=pointer]
+                            - button "Zoom out" [ref=f11e89] [cursor=pointer]
+                            - button "Reset view" [ref=f11e93] [cursor=pointer]
+                            - button "Pan up" [ref=f11e96] [cursor=pointer]
+                            - button "Pan down" [ref=f11e99] [cursor=pointer]
+                            - button "Pan left" [ref=f11e102] [cursor=pointer]
+                            - button "Pan right" [ref=f11e105] [cursor=pointer]
+                    - generic [ref=f7e755]: Loading
+                  - group [ref=f7e760]:
+                    - generic "Engineering notes" [ref=f7e761] [cursor=pointer]
+                  - paragraph [ref=f7e762]:
+                    - link [ref=f7e763] [cursor=pointer]:
+                      - /url: /Kanishk3105/CareerOS/blob/main/docs/assets/divider.svg
+                  - generic [ref=f7e764]:
+                    - heading "Tech stack" [level=2] [ref=f7e765]
+                    - 'link "Permalink: Tech stack" [ref=f7e766] [cursor=pointer]':
+                      - /url: "#tech-stack"
+                  - table [ref=f7e770]:
+                    - rowgroup [ref=f7e771]:
+                      - row [ref=f7e772]:
+                        - columnheader "Layer" [ref=f7e773]
+                        - columnheader [ref=f7e774]:
+                          - text: Technologies (from
+                          - code [ref=f7e775]: package.json
+                          - text: )
+                    - rowgroup [ref=f7e776]:
+                      - row [ref=f7e777]:
+                        - cell [ref=f7e778]:
+                          - strong [ref=f7e779]: Frontend
+                        - cell "React 19 · React Router 8 · TanStack Query 5 · three.js 0.186 + React Three Fiber 9 · Motion 13 · Lenis 1 · Fontsource (Instrument Serif, Geist, Geist Mono)" [ref=f7e780]
+                      - row [ref=f7e781]:
+                        - cell [ref=f7e782]:
+                          - strong [ref=f7e783]: Backend
+                        - cell "Node.js · Express 5 · TypeScript 7 · jsonwebtoken 9 · bcryptjs 3 · unpdf 1 (PDF text)" [ref=f7e784]
+                      - row [ref=f7e785]:
+                        - cell [ref=f7e786]:
+                          - strong [ref=f7e787]: Database
+                        - cell "SQLite through better-sqlite3 13" [ref=f7e788]
+                      - row [ref=f7e789]:
+                        - cell [ref=f7e790]:
+                          - strong [ref=f7e791]: Testing
+                        - cell "Vitest 5 · Testing Library (React, user-event, jest-dom) · jsdom · Supertest" [ref=f7e792]
+                      - row [ref=f7e793]:
+                        - cell [ref=f7e794]:
+                          - strong [ref=f7e795]: Tooling
+                        - cell "Vite 8 · tsx · a model build script for the agent-core GLB · a screenshot capture script for this README" [ref=f7e796]
+                  - paragraph [ref=f7e797]:
+                    - link [ref=f7e798] [cursor=pointer]:
+                      - /url: /Kanishk3105/CareerOS/blob/main/docs/assets/divider.svg
+                  - generic [ref=f7e799]:
+                    - heading "Project structure" [level=2] [ref=f7e800]
+                    - 'link "Permalink: Project structure" [ref=f7e801] [cursor=pointer]':
+                      - /url: "#project-structure"
+                  - group [ref=f7e804]:
+                    - generic "Repository layout" [ref=f7e805] [cursor=pointer]
+                  - table [ref=f7e807]:
+                    - rowgroup [ref=f7e808]:
+                      - row [ref=f7e809]:
+                        - columnheader "Start here" [ref=f7e810]
+                        - columnheader "Why" [ref=f7e811]
+                    - rowgroup [ref=f7e812]:
+                      - row [ref=f7e813]:
+                        - cell [ref=f7e814]:
+                          - link [ref=f7e815] [cursor=pointer]:
+                            - /url: /Kanishk3105/CareerOS/blob/main/backend/src/app.ts
+                            - code [ref=f7e816]: backend/src/app.ts
+                        - 'cell "Wires every module: repositories, use cases, controllers and routes" [ref=f7e817]'
+                      - row [ref=f7e818]:
+                        - cell [ref=f7e819]:
+                          - link [ref=f7e820] [cursor=pointer]:
+                            - /url: /Kanishk3105/CareerOS/blob/main/backend/src/repositories/sqlite/db.ts
+                            - code [ref=f7e821]: backend/src/repositories/sqlite/db.ts
+                        - cell "The whole schema and its additive migrations" [ref=f7e822]
+                      - row [ref=f7e823]:
+                        - cell [ref=f7e824]:
+                          - link [ref=f7e825] [cursor=pointer]:
+                            - /url: /Kanishk3105/CareerOS/blob/main/frontend/src/app/routes.tsx
+                            - code [ref=f7e826]: frontend/src/app/routes.tsx
+                        - cell "Every page, lazy-loaded behind the app shell" [ref=f7e827]
+                      - row [ref=f7e828]:
+                        - cell [ref=f7e829]:
+                          - link [ref=f7e830] [cursor=pointer]:
+                            - /url: /Kanishk3105/CareerOS/blob/main/frontend/DESIGN.md
+                            - code [ref=f7e831]: frontend/DESIGN.md
+                        - cell "Visual language, motion rules and honesty rules" [ref=f7e832]
+                  - paragraph [ref=f7e833]:
+                    - link [ref=f7e834] [cursor=pointer]:
+                      - /url: /Kanishk3105/CareerOS/blob/main/docs/assets/divider.svg
+                  - generic [ref=f7e835]:
+                    - heading "Getting started" [level=2] [ref=f7e836]
+                    - 'link "Permalink: Getting started" [ref=f7e837] [cursor=pointer]':
+                      - /url: "#getting-started"
+                  - paragraph [ref=f7e840]:
+                    - strong [ref=f7e841]: "Requirements:"
+                    - text: Node.js 22.12 or newer (the backend loads an ES-module PDF library from CommonJS; developed on Node 24) and npm.
+                  - generic [ref=f7e842]:
+                    - generic [ref=f7e843]:
+                      - generic [ref=f7e844]: "# 1. Clone"
+                      - text: git clone https://github.com/Kanishk3105/CareerOS.git cd CareerOS
+                      - generic [ref=f7e845]: "# 2. Install"
+                      - text: cd backend && npm install cd ../frontend && npm install
+                      - generic [ref=f7e846]: "# 3. Seed the development job catalog (24 fictional postings) into a database file"
+                      - text: cd ../backend DB_PATH=./careeros.sqlite npm run seed:jobs
+                      - generic [ref=f7e847]: "# 4. Start the API on http://localhost:4000"
+                      - text: DB_PATH=./careeros.sqlite npm run dev
+                      - generic [ref=f7e848]: "# 5. In a second terminal, start the web client on http://localhost:5173"
+                      - text: cd frontend npm run dev
+                    - button "Copy code to clipboard" [ref=f7e850] [cursor=pointer]
+                  - paragraph [ref=f7e854]:
+                    - text: Open
+                    - strong [ref=f7e855]:
+                      - link "http://localhost:5173" [ref=f7e856] [cursor=pointer]:
+                        - /url: http://localhost:5173
+                    - text: and create an account. The dev server proxies
+                    - code [ref=f7e857]: /api
+                    - text: and
+                    - code [ref=f7e858]: /health
+                    - text: to the backend, so the browser talks to one origin.
+                  - group [ref=f7e859]:
+                    - generic "Windows PowerShell" [ref=f7e860] [cursor=pointer]
+                  - group [ref=f7e861]:
+                    - generic "Configuration" [ref=f7e862] [cursor=pointer]
+                  - group [ref=f7e863]:
+                    - generic "Build for production" [ref=f7e864] [cursor=pointer]
+                  - group [ref=f7e865]:
+                    - generic "Regenerate the README screenshots" [ref=f7e866] [cursor=pointer]
+                  - paragraph [ref=f7e867]:
+                    - link [ref=f7e868] [cursor=pointer]:
+                      - /url: /Kanishk3105/CareerOS/blob/main/docs/assets/divider.svg
+                  - generic [ref=f7e869]:
+                    - heading "API" [level=2] [ref=f7e870]
+                    - 'link "Permalink: API" [ref=f7e871] [cursor=pointer]':
+                      - /url: "#api"
+                  - paragraph [ref=f7e874]:
+                    - text: All endpoints are under
+                    - code [ref=f7e875]: /api/v1
+                    - text: ", return"
+                    - code [ref=f7e876]: "{ data, meta }"
+                    - text: ", report errors as"
+                    - code [ref=f7e877]: "{ error: { code, message, details?, request_id } }"
+                    - text: ", and act only on the authenticated user's data."
+                    - code [ref=f7e878]: GET /health
+                    - text: reports liveness.
+                  - group [ref=f7e879]:
+                    - generic [ref=f7e880] [cursor=pointer]:
+                      - text: Auth —
+                      - code [ref=f7e881]: /api/v1/auth
+                  - group [ref=f7e882]:
+                    - generic "Profile, resumes, memory & answers" [ref=f7e883] [cursor=pointer]
+                  - group [ref=f7e884]:
+                    - generic "Jobs, matching, recommendations & insights" [ref=f7e885] [cursor=pointer]
+                  - group [ref=f7e886]:
+                    - generic "Easy Apply & applications" [ref=f7e887] [cursor=pointer]
+                  - group [ref=f7e888]:
+                    - generic "Interview preparation" [ref=f7e889] [cursor=pointer]
+                  - group [ref=f7e890]:
+                    - generic "Agents & approvals" [ref=f7e891] [cursor=pointer]
+                  - paragraph [ref=f7e892]:
+                    - link [ref=f7e893] [cursor=pointer]:
+                      - /url: /Kanishk3105/CareerOS/blob/main/docs/assets/divider.svg
+                  - generic [ref=f7e894]:
+                    - heading "Testing" [level=2] [ref=f7e895]
+                    - 'link "Permalink: Testing" [ref=f7e896] [cursor=pointer]':
+                      - /url: "#testing"
+                  - generic [ref=f7e899]:
+                    - generic [ref=f7e900]:
+                      - text: cd backend npm test
+                      - generic [ref=f7e901]: "# Vitest: unit and Supertest integration tests"
+                      - text: npm run typecheck npm run smoke
+                      - generic [ref=f7e902]: "# starts the real server on a TCP port and drives it with fetch()"
+                      - text: cd ../frontend npm test
+                      - generic [ref=f7e903]: "# Vitest + Testing Library component and unit tests"
+                      - text: npm run typecheck
+                    - button "Copy code to clipboard" [ref=f7e905] [cursor=pointer]
+                  - table [ref=f7e910]:
+                    - rowgroup [ref=f7e911]:
+                      - row [ref=f7e912]:
+                        - columnheader "Suite" [ref=f7e913]
+                        - columnheader "Files" [ref=f7e914]
+                        - columnheader "Covers" [ref=f7e915]
+                    - rowgroup [ref=f7e916]:
+                      - row [ref=f7e917]:
+                        - cell "Backend unit" [ref=f7e918]
+                        - cell "28" [ref=f7e919]
+                        - cell "Matching, recommendations, readiness, next actions, resume parsing, application rules, interview plans and answer checks, repositories, use cases" [ref=f7e920]
+                      - row [ref=f7e921]:
+                        - cell "Backend integration" [ref=f7e922]
+                        - cell "12" [ref=f7e923]
+                        - 'cell "Every HTTP module over the real Express app: auth and cookies, profile, resumes (real PDF and .docx files), memory, matching, catalog, applications, Easy Apply, career, agents, interviews, dashboard" [ref=f7e924]'
+                      - row [ref=f7e925]:
+                        - cell "Backend smoke" [ref=f7e926]
+                        - cell "1 script" [ref=f7e927]
+                        - cell "The compiled server end to end over real HTTP" [ref=f7e928]
+                      - row [ref=f7e929]:
+                        - cell "Frontend" [ref=f7e930]
+                        - cell "16" [ref=f7e931]
+                        - cell "Easy Apply flow, job-page state isolation, interview workspace, onboarding, sign-in, new-application dialog, the API client, the skills marquee, primitives, 3D scene layouts" [ref=f7e932]
+                  - paragraph [ref=f7e933]:
+                    - text: "At the time of writing:"
+                    - strong [ref=f7e934]: "430"
+                    - text: backend tests and
+                    - strong [ref=f7e935]: "62"
+                    - text: frontend tests, all passing. No coverage percentage is measured.
+                  - paragraph [ref=f7e936]:
+                    - link [ref=f7e937] [cursor=pointer]:
+                      - /url: /Kanishk3105/CareerOS/blob/main/docs/assets/divider.svg
+                  - generic [ref=f7e938]:
+                    - heading "Design philosophy" [level=2] [ref=f7e939]
+                    - 'link "Permalink: Design philosophy" [ref=f7e940] [cursor=pointer]':
+                      - /url: "#design-philosophy"
+                  - table [ref=f7e944]:
+                    - rowgroup [ref=f7e945]:
+                      - row [ref=f7e946]:
+                        - cell [ref=f7e947]:
+                          - text: A system, not a set of screens.
+                          - subscript [ref=f7e948]: Every page reads from the same career record and feeds the next step; Control ties them together.
+                        - cell [ref=f7e949]:
+                          - text: Your data is the colour.
+                          - subscript [ref=f7e950]: A near-black canvas and neutral chrome; one accent — chartreuse — means only attention or "you are here".
+                      - row [ref=f7e951]:
+                        - cell [ref=f7e952]:
+                          - text: Every number is real.
+                          - subscript [ref=f7e953]: Scores from the matcher, readiness as named checks, rates from outcomes. Unfinished parts carry honest status tags.
+                        - cell [ref=f7e954]:
+                          - text: 3D only where position means something.
+                          - subscript [ref=f7e955]: Rings are pipeline stages, stars are postings. Each scene has an accessible list and a static fallback.
+                      - row [ref=f7e956]:
+                        - cell [ref=f7e957]:
+                          - text: Motion communicates state.
+                          - subscript [ref=f7e958]: Things rise when they arrive, light up when they're met, and stand still when you ask for reduced motion.
+                        - cell [ref=f7e959]:
+                          - text: You stay in control.
+                          - subscript [ref=f7e960]: Resume data is reviewed before it's saved, sensitive answers are confirmed every time, and agents propose rather than act.
+                  - paragraph [ref=f7e961]:
+                    - text: The full rationale lives in
+                    - link [ref=f7e962] [cursor=pointer]:
+                      - /url: /Kanishk3105/CareerOS/blob/main/frontend/DESIGN.md
+                      - code [ref=f7e963]: frontend/DESIGN.md
+                    - text: .
+                  - paragraph [ref=f7e964]:
+                    - link [ref=f7e965] [cursor=pointer]:
+                      - /url: /Kanishk3105/CareerOS/blob/main/docs/assets/divider.svg
+                  - generic [ref=f7e966]:
+                    - heading "Roadmap" [level=2] [ref=f7e967]
+                    - 'link "Permalink: Roadmap" [ref=f7e968] [cursor=pointer]':
+                      - /url: "#roadmap"
+                  - table [ref=f7e972]:
+                    - rowgroup [ref=f7e973]:
+                      - row [ref=f7e974]:
+                        - columnheader "✅ Implemented" [ref=f7e975]
+                        - columnheader "🚧 Partial" [ref=f7e976]
+                        - columnheader "🧭 Future" [ref=f7e977]
+                    - rowgroup [ref=f7e978]:
+                      - row [ref=f7e979]:
+                        - cell "Accounts, sessions, password reset, email verification" [ref=f7e980]
+                        - cell [ref=f7e981]:
+                          - strong [ref=f7e982]: Job discovery
+                          - text: — reads the CareerOS catalog only; external job boards aren't connected
+                        - cell [ref=f7e983]:
+                          - strong [ref=f7e984]: AI layer
+                          - text: — model-backed assistance (
+                          - link "AI-001" [ref=f7e985] [cursor=pointer]:
+                            - /url: /Kanishk3105/CareerOS/blob/main/docs/04_AI/AI-001-Intelligence-Architecture.md
+                          - text: )
+                      - row [ref=f7e986]:
+                        - cell "Profile, readiness and onboarding" [ref=f7e987]
+                        - cell [ref=f7e988]:
+                          - strong [ref=f7e989]: Agents
+                          - text: — deterministic today; no AI model behind them
+                        - cell [ref=f7e990]:
+                          - strong [ref=f7e991]: AI resume builder
+                          - text: — generating resumes (
+                          - link "PRD-004" [ref=f7e992] [cursor=pointer]:
+                            - /url: /Kanishk3105/CareerOS/blob/main/docs/01_PRD/PRD-004-AI-Resume-Builder.md
+                          - text: )
+                      - row [ref=f7e993]:
+                        - cell "Resume upload, extraction, review and management" [ref=f7e994]
+                        - cell [ref=f7e995]:
+                          - strong [ref=f7e996]: Email
+                          - text: — printed by a console stub, not sent
+                        - cell [ref=f7e997]:
+                          - strong [ref=f7e998]: AI cover letters
+                          - text: (
+                          - link "PRD-006" [ref=f7e999] [cursor=pointer]:
+                            - /url: /Kanishk3105/CareerOS/blob/main/docs/01_PRD/PRD-006-AI-Cover-Letter-Generator.md
+                          - text: )
+                      - row [ref=f7e1000]:
+                        - cell "Career memory and saved answers" [ref=f7e1001]
+                        - cell [ref=f7e1002]:
+                          - strong [ref=f7e1003]: Easy Apply delivery
+                          - text: — to the CareerOS catalog; no employer integrations
+                        - cell [ref=f7e1004]:
+                          - strong [ref=f7e1005]: AI career coach
+                          - text: (
+                          - link "PRD-008" [ref=f7e1006] [cursor=pointer]:
+                            - /url: /Kanishk3105/CareerOS/blob/main/docs/01_PRD/PRD-008-AI-Career-Coach.md
+                          - text: )
+                      - row [ref=f7e1007]:
+                        - cell "Job catalog, matching and recommendations" [ref=f7e1008]
+                        - cell [ref=f7e1009]
+                        - cell [ref=f7e1010]:
+                          - strong [ref=f7e1011]: Notifications
+                          - text: (
+                          - link "SRS-011" [ref=f7e1012] [cursor=pointer]:
+                            - /url: /Kanishk3105/CareerOS/blob/main/docs/02_SRS/SRS-011-Notifications.md
+                          - text: )
+                      - row [ref=f7e1013]:
+                        - cell "Easy Apply and application tracking" [ref=f7e1014]
+                        - cell [ref=f7e1015]
+                        - cell [ref=f7e1016]:
+                          - strong [ref=f7e1017]: External job ingestion
+                          - text: and integrations (
+                          - link "ARCH-017" [ref=f7e1018] [cursor=pointer]:
+                            - /url: /Kanishk3105/CareerOS/blob/main/docs/03_Architecture/ARCH-017-External-Integration-Architecture.md
+                          - text: )
+                      - row [ref=f7e1019]:
+                        - cell "Interview preparation with mock interviews" [ref=f7e1020]
+                        - cell [ref=f7e1021]
+                        - cell [ref=f7e1022]:
+                          - strong [ref=f7e1023]: Export and deletion of your whole record
+                      - row [ref=f7e1024]:
+                        - cell "Seven agents with approvals" [ref=f7e1025]
+                        - cell [ref=f7e1026]
+                        - cell [ref=f7e1027]:
+                          - strong [ref=f7e1028]: PostgreSQL
+                          - text: in place of SQLite (
+                          - link "ARCH-005" [ref=f7e1029] [cursor=pointer]:
+                            - /url: /Kanishk3105/CareerOS/blob/main/docs/03_Architecture/ARCH-005-Database-Architecture.md
+                          - text: )
+                      - row [ref=f7e1030]:
+                        - cell "Control, analytics and the activity trail" [ref=f7e1031]
+                        - cell [ref=f7e1032]
+                        - cell [ref=f7e1033]
+                      - row [ref=f7e1034]:
+                        - cell "3D landing, job universe, pipeline orbit" [ref=f7e1035]
+                        - cell [ref=f7e1036]
+                        - cell [ref=f7e1037]
+                  - paragraph [ref=f7e1038]:
+                    - link [ref=f7e1039] [cursor=pointer]:
+                      - /url: /Kanishk3105/CareerOS/blob/main/docs/assets/divider.svg
+                  - generic [ref=f7e1040]:
+                    - heading "Documentation" [level=2] [ref=f7e1041]
+                    - 'link "Permalink: Documentation" [ref=f7e1042] [cursor=pointer]':
+                      - /url: "#documentation"
+                  - paragraph [ref=f7e1045]:
+                    - text: The product was specified before it was built.
+                    - link [ref=f7e1046] [cursor=pointer]:
+                      - /url: /Kanishk3105/CareerOS/blob/main/docs
+                      - code [ref=f7e1047]: docs/
+                    - text: holds the
+                    - link "foundation" [ref=f7e1048] [cursor=pointer]:
+                      - /url: /Kanishk3105/CareerOS/blob/main/docs/00_Foundation
+                    - text: (vision, principles, scope, personas),
+                    - link "product requirements" [ref=f7e1049] [cursor=pointer]:
+                      - /url: /Kanishk3105/CareerOS/blob/main/docs/01_PRD
+                    - text: ","
+                    - link "software requirements" [ref=f7e1050] [cursor=pointer]:
+                      - /url: /Kanishk3105/CareerOS/blob/main/docs/02_SRS
+                    - text: ","
+                    - link "architecture" [ref=f7e1051] [cursor=pointer]:
+                      - /url: /Kanishk3105/CareerOS/blob/main/docs/03_Architecture
+                    - text: (ARCH-001 to ARCH-023), the
+                    - link "AI architecture" [ref=f7e1052] [cursor=pointer]:
+                      - /url: /Kanishk3105/CareerOS/blob/main/docs/04_AI
+                    - text: and
+                    - link "ADRs" [ref=f7e1053] [cursor=pointer]:
+                      - /url: /Kanishk3105/CareerOS/blob/main/docs/ADR
+                    - text: . Code comments cite the requirement or architecture section they implement.
+                  - paragraph [ref=f7e1054]:
+                    - text: "Contributing:"
+                    - link "CONTRIBUTING" [ref=f7e1055] [cursor=pointer]:
+                      - /url: /Kanishk3105/CareerOS/blob/main/.github/CONTRIBUTING.md
+                    - text: ·
+                    - link "Code of conduct" [ref=f7e1056] [cursor=pointer]:
+                      - /url: /Kanishk3105/CareerOS/blob/main/.github/CODE_OF_CONDUCT.md
+                    - text: ·
+                    - link "Security policy" [ref=f7e1057] [cursor=pointer]:
+                      - /url: /Kanishk3105/CareerOS/blob/main/.github/SECURITY.md
+                  - generic [ref=f7e1058]:
+                    - heading "License" [level=2] [ref=f7e1059]
+                    - 'link "Permalink: License" [ref=f7e1060] [cursor=pointer]':
+                      - /url: "#license"
+                  - paragraph [ref=f7e1063]:
+                    - link "MIT" [ref=f7e1064] [cursor=pointer]:
+                      - /url: /Kanishk3105/CareerOS/blob/main/LICENSE
+                    - text: © 2026 Kanishk Chhachra
+          - generic [ref=f7e1067]:
+            - generic [ref=f7e1068]:
+              - heading "About Edit repository metadata" [level=2] [ref=f7e1069]:
+                - generic [ref=f7e1071]:
+                  - generic [ref=f7e1072]: About
+                  - button "Edit repository metadata" [ref=f7e1073] [cursor=pointer]
+              - paragraph [ref=f7e1076]: CareerOS is an autonomous AI-powered Career Operating System that manages a user's professional journey through intelligent career planning, personalized application generation, AI agents, browser automation, and lifelong career intelligence.
+              - generic "https://career-os-six-lake.vercel.app" [ref=f7e1080]:
+                - link "career-os-six-lake.vercel.app" [ref=f7e1081] [cursor=pointer]:
+                  - /url: https://career-os-six-lake.vercel.app
+              - heading "Resources" [level=3] [ref=f7e1082]
+              - link "Readme" [ref=f7e1084] [cursor=pointer]:
+                - /url: "#readme-ov-file"
+              - link "MIT license" [ref=f7e1088] [cursor=pointer]:
+                - /url: "#MIT-1-ov-file"
+              - heading "Code of conduct" [level=3] [ref=f7e1091]
+              - link "Code of conduct" [ref=f7e1093] [cursor=pointer]:
+                - /url: "#coc-ov-file"
+              - heading "Contributing" [level=3] [ref=f7e1096]
+              - link "Contributing" [ref=f7e1098] [cursor=pointer]:
+                - /url: "#contributing-ov-file"
+              - heading "Security policy" [level=3] [ref=f7e1101]
+              - link "Security policy" [ref=f7e1103] [cursor=pointer]:
+                - /url: "#security-ov-file"
+              - generic [ref=f7e1106]:
+                - link "Activity" [ref=f7e1109] [cursor=pointer]:
+                  - /url: /Kanishk3105/CareerOS/activity
+                - generic [ref=f7e1112]:
+                  - heading "Stars" [level=3] [ref=f7e1113]
+                  - link [ref=f7e1115] [cursor=pointer]:
+                    - /url: /Kanishk3105/CareerOS/stargazers
+                    - strong [ref=f7e1119]: "0"
+                    - text: stars
+                  - heading "Watchers" [level=3] [ref=f7e1120]
+                  - link [ref=f7e1122] [cursor=pointer]:
+                    - /url: /Kanishk3105/CareerOS/watchers
+                    - strong [ref=f7e1126]: "0"
+                    - text: watching
+                  - heading "Forks" [level=3] [ref=f7e1127]
+                  - link [ref=f7e1129] [cursor=pointer]:
+                    - /url: /Kanishk3105/CareerOS/forks
+                    - strong [ref=f7e1133]: "0"
+                    - text: forks
+            - generic [ref=f7e1134]:
+              - heading [level=2] [ref=f7e1135]:
+                - link "Releases" [ref=f7e1137] [cursor=pointer]:
+                  - /url: /Kanishk3105/CareerOS/releases
+              - link "1tag" [ref=f7e1138] [cursor=pointer]:
+                - /url: /Kanishk3105/CareerOS/tags
+              - link "Create a new release" [ref=f7e1142] [cursor=pointer]:
+                - /url: /Kanishk3105/CareerOS/releases/new
+            - generic [ref=f7e1143]:
+              - heading "Deployments (1)" [level=2] [ref=f7e1144]:
+                - generic [ref=f7e1145]:
+                  - link "Deployments" [ref=f7e1146] [cursor=pointer]:
+                    - /url: /Kanishk3105/CareerOS/deployments
+                  - generic [aria-hidden] [ref=f7e1147]: "1"
+                  - generic [ref=f7e1148]: (1)
+              - list [ref=f7e1149]:
+                - listitem [ref=f7e1150]:
+                  - link "Production" [ref=f7e1154] [cursor=pointer]:
+                    - /url: /Kanishk3105/CareerOS/deployments/Production
+                  - generic [ref=f7e1155]: Oct 2, 20263 weeks ago
+            - generic [ref=f7e1156]:
+              - heading [level=2] [ref=f7e1157]:
+                - link "Packages" [ref=f7e1159] [cursor=pointer]:
+                  - /url: /users/Kanishk3105/packages?repo_name=CareerOS
+              - generic [ref=f7e1160]:
+                - text: No packages published
+                - link "Publish your first package" [ref=f7e1161] [cursor=pointer]:
+                  - /url: /Kanishk3105/CareerOS/packages
+            - generic [ref=f7e1162]:
+              - heading "Contributors (1)" [level=2] [ref=f7e1163]:
+                - generic [ref=f7e1164]:
+                  - link "Contributors" [ref=f7e1165] [cursor=pointer]:
+                    - /url: /Kanishk3105/CareerOS/graphs/contributors
+                  - generic [aria-hidden] [ref=f7e1166]: "1"
+                  - generic [ref=f7e1167]: (1)
+              - list [ref=f7e1168]:
+                - listitem [ref=f7e1169]:
+                  - link [ref=f7e1170] [cursor=pointer]:
+                    - /url: /Kanishk3105
+                    - img "@Kanishk3105" [ref=f7e1171]
+                  - generic "Kanishk3105 kanishk chhachra" [ref=f7e1172]:
+                    - link [ref=f7e1173] [cursor=pointer]:
+                      - /url: /Kanishk3105
+                      - strong [ref=f7e1174]: Kanishk3105
+                      - text: kanishk chhachra
+            - generic [ref=f7e1175]:
+              - heading "Languages" [level=2] [ref=f7e1176]
+              - generic [ref=f7e1178]:
+                - 'progressbar "TypeScript: 92.2%" [ref=f7e1179]'
+                - 'progressbar "CSS: 7.6%" [ref=f7e1180]'
+                - 'progressbar "Other: 0.2%" [ref=f7e1181]'
+              - list [ref=f7e1182]:
+                - listitem [ref=f7e1183]:
+                  - link "TypeScript 92.2%" [ref=f7e1184] [cursor=pointer]:
+                    - /url: /Kanishk3105/CareerOS/search?l=typescript
+                    - generic [ref=f7e1186]: TypeScript
+                    - generic [ref=f7e1187]: 92.2%
+                - listitem [ref=f7e1188]:
+                  - link "CSS 7.6%" [ref=f7e1189] [cursor=pointer]:
+                    - /url: /Kanishk3105/CareerOS/search?l=css
+                    - generic [ref=f7e1191]: CSS
+                    - generic [ref=f7e1192]: 7.6%
+                - listitem [ref=f7e1193]:
+                  - link "Other 0.2%" [ref=f7e1194] [cursor=pointer]:
+                    - /url: /Kanishk3105/CareerOS/search?l=Other
+                    - generic [ref=f7e1196]: Other
+                    - generic [ref=f7e1197]: 0.2%
+            - generic [ref=f7e1198]:
+              - heading "Suggested workflows" [level=2] [ref=f7e1199]
+              - paragraph [ref=f7e1200]: Based on your tech stack
+              - list [ref=f7e1201]:
+                - listitem [ref=f7e1202]:
+                  - img "Webpack logo" [ref=f7e1204]
+                  - generic [ref=f7e1205]:
+                    - generic [ref=f7e1206]: Webpack
+                    - generic [ref=f7e1207]: Build a NodeJS project with npm and webpack.
+                    - generic [ref=f7e1208]: By GitHub Actions
+                  - link "Configure" [ref=f7e1209] [cursor=pointer]:
+                    - /url: /Kanishk3105/CareerOS/new/main?filename=.github%2Fworkflows%2Fwebpack.yml&workflow_template=ci%2Fwebpack
+                - listitem [ref=f7e1212]:
+                  - img "SLSA Generic generator logo" [ref=f7e1214]
+                  - generic [ref=f7e1215]:
+                    - generic [ref=f7e1216]: SLSA Generic generator
+                    - generic [ref=f7e1217]: Generate SLSA3 provenance for your existing release workflows
+                    - generic [ref=f7e1218]: By Open Source Security Foundation (OpenSSF)
+                  - link "Configure" [ref=f7e1219] [cursor=pointer]:
+                    - /url: /Kanishk3105/CareerOS/new/main?filename=.github%2Fworkflows%2Fgenerator-generic-ossf-slsa3-publish.yml&workflow_template=ci%2Fgenerator-generic-ossf-slsa3-publish
+                - listitem [ref=f7e1222]:
+                  - img "Datadog Synthetics logo" [ref=f7e1224]
+                  - generic [ref=f7e1225]:
+                    - generic [ref=f7e1226]: Datadog Synthetics
+                    - generic [ref=f7e1227]: Run Datadog Synthetic tests within your GitHub Actions workflow
+                    - generic [ref=f7e1228]: By Datadog
+                  - link "Configure" [ref=f7e1229] [cursor=pointer]:
+                    - /url: /Kanishk3105/CareerOS/new/main?filename=.github%2Fworkflows%2Fdatadog-synthetics.yml&workflow_template=ci%2Fdatadog-synthetics
+              - generic [ref=f7e1232]:
+                - link "More workflows" [ref=f7e1233] [cursor=pointer]:
+                  - /url: /Kanishk3105/CareerOS/actions/new
+                - button "Dismiss suggestions" [ref=f7e1234] [cursor=pointer]
+  - alert [ref=f7e1240]

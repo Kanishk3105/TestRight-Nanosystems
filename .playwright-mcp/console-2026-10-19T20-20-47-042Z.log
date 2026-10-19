@@ -1,0 +1,5 @@
+[    2014ms] [ERROR] Error reading query stream: TypeError: Cannot read properties of undefined (reading 'mutations')
+    at pl (https://github.githubassets.com/assets/router-DteMNsjR.js:3:66233)
+    at e (https://github.githubassets.com/assets/index-5sCJA277.js:4:244665) @ https://github.githubassets.com/assets/index-5sCJA277.js:3
+[    4822ms] [INFO] This document requires 'TrustedScriptURL' assignment. The policy is report-only, so the violation has been logged but no further action has been taken. @ https://github.githubassets.com/assets/use-alive-CkgRv5bj.js:0
+[    9561ms] [INFO] This document requires 'TrustedScriptURL' assignment. The policy is report-only, so the violation has been logged but no further action has been taken. @ https://github.githubassets.com/assets/main-g9RKPx-j.js:5
